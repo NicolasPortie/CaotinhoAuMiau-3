@@ -1,0 +1,67 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+publish/
+
+# Rider
+.idea/
+
+# ASP.NET Core runtime files
+*.db
+*.db-shm
+*.db-wal
+
+# Public packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Node/NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# LibMan
+wwwroot/lib/
+
+# Bundler & minifier
+bundleconfig.json
+project.lock.json
+project.fragment.lock.json
+
+# VS Code
+.vscode/
+
+# Environment & secret files
+.env
+.env.*.local
+appsettings*.Development.json
+
+# Logs
+logs/
+*.log
+
+# Publish output
+wwwroot/dist/
+*.Publish.xml
+
+# Arquivos temporários do OS
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IIS
+iisexpress/

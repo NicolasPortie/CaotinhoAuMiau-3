@@ -1,0 +1,24 @@
+# Auto-normalização de fim de linha
+* text=auto
+
+# Forçar CRLF no Windows, LF no Linux/Mac
+*.cs     text
+*.cshtml text
+*.js     text
+*.css    text
+*.json   text
+*.xml    text
+
+# Binários
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.eot    binary
+
+# Evita diffs enormes em arquivos gerados
+*.log    -text
